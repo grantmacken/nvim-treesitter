@@ -3,6 +3,14 @@ local ts = vim.treesitter
 
 local list = {}
 
+list.xquery = {
+  install_info = {
+    url = "https://github.com/grantmacken/tree-sitter-xquery",
+    files = { "src/parser.c" },
+  },
+  maintainers = {"@xquery"},
+}
+
 list.javascript = {
   install_info = {
     url = "https://github.com/tree-sitter/tree-sitter-javascript",
